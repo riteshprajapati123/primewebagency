@@ -1,0 +1,4 @@
+BEGIN;
+ALTER TABLE public.website_demos
+  ADD COLUMN IF NOT EXISTS demo_account_is_sandbox BOOLEAN NOT NULL DEFAULT FALSE;
+COMMIT;

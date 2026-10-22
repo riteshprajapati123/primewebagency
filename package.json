@@ -1,0 +1,21 @@
+{
+  "name": "prime-web-agency",
+  "version": "1.0.0",
+  "description": "Prime Web Agency full-stack website and WhatsApp AI automation platform",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.0.0 <25.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "admin:promote": "node scripts/promote-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  }
+}
